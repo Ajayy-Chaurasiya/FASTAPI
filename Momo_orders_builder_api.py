@@ -53,5 +53,5 @@ def place_order(order: Order):
         "customer": order.customer,
         "items_ordered": order.items,
         "total_price": total,
-        "status": "Order placed!"
+        "status": "Order placed"
     }
