@@ -39,7 +39,7 @@ def get_todos():
 def update_todo(todo_id: int, updated_todo: Todo):
 
     for index, todo in enumerate(todos_list):
-        #enumerate() is a built-in Python function that lets you loop through a list while
+        #enumerate() is  built-in Python function that lets you loop through a list while
         # getting both the index and the item at the same time.
         
         #So the todo in the for loop is initialized/assigned by the for loop itself
